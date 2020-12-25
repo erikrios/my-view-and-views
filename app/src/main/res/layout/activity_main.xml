@@ -72,6 +72,15 @@
             android:text="@string/content_text"
             android:textColor="@android:color/black" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/spesifikasi"
+            android:textSize="12sp" />
+
     </LinearLayout>
 
 </ScrollView>
