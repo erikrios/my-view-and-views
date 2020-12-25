@@ -14,4 +14,6 @@
     Audio playback (via headset): up to 110 hours\n
     Fast charging: up to 7 hours of use from only 15 minutes of charging</string>
     <string name="photos_total">6 Photos</string>
+    <string name="price">$735</string>
+    <string name="stock">Stock hanya 5 buah</string>
 </resources>
