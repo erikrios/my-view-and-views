@@ -6,10 +6,8 @@
 
     <TextView
         android:id="@+id/text_specification"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        style="@style/TextContent.Subtitle"
+        android:layout_marginBottom="8dp"
         android:text="@string/spesifikasi"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,22 +15,14 @@
 
     <TextView
         android:id="@+id/text_spec_display_title"
-        android:layout_width="58dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        style="@style/TextSpec.Field"
         android:text="@string/display"
-        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_specification" />
 
     <TextView
         android:id="@+id/text_spec_display"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        style="@style/TextSpec.Value"
         android:text="@string/content_specs_display"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/guideline"
@@ -40,22 +30,14 @@
 
     <TextView
         android:id="@+id/text_spec_size_title"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        style="@style/TextSpec.Field"
         android:text="@string/size"
-        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_spec_display" />
 
     <TextView
         android:id="@+id/text_spec_size"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        style="@style/TextSpec.Value"
         android:text="@string/content_specs_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/guideline"
@@ -63,21 +45,14 @@
 
     <TextView
         android:id="@+id/text_battery_title"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        style="@style/TextSpec.Field"
         android:text="@string/battery"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_spec_size" />
 
     <TextView
         android:id="@+id/text_battery"
-        android:layout_width="0dp"
-        android:layout_height="266dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        style="@style/TextSpec.Value"
         android:text="@string/content_specs_battery"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/guideline"
